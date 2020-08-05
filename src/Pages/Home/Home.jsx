@@ -40,7 +40,7 @@ class Home extends Component {
                     image: 'https://static.toiimg.com/photo/72975551.cms',
                     title: '6D/ 4N Fun Tassie Vacation',
                     price: 12398000,
-                    vacation: 'Australia'
+                    vacation: 'Japan'
                 }, {
                     id: 6,
                     image: 'https://static.toiimg.com/photo/72975551.cms',
