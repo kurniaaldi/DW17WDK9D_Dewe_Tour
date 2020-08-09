@@ -1,18 +1,13 @@
+import React from 'react'
 import { icon, upload } from '../../asset/pict/asset'
 
-import React, { useState } from 'react'
 
-export function Payment({ auth }) {
-    const [pay, setPay] = useState(false)
-
-    const handlePay = () => {
-        setPay(true)
-
-    }
+function CardHistory() {
     return (
-        <div className="container mt-5 mb-5 p-5">
-            <div className="card w-100 mb-5">
-                <div className="card-body">
+        <>
+            <h1 className='title-history'>History Trip</h1>
+            <div class="card container">
+                <div class="card-body">
                     <div className="card-title">
                         <div className="row">
                             <div className="col-8">
@@ -26,7 +21,7 @@ export function Payment({ auth }) {
                     </div>
                     <hr />
                     <div className="row">
-                        <div className="col-9">
+                        <div className="col-9 card-midle">
                             <div className="row row-pay mb-3">
                                 <div className="col-4">
                                     <h5>6D/4N Fun Tassie Vacation</h5>
@@ -61,15 +56,13 @@ export function Payment({ auth }) {
                         </div>
                     </div>
                     <div className="">
-                        <table className="table text-justify">
+                        <table class="table text-justify">
                             <thead >
                                 <tr className='bTop' >
                                     <th scope="col">No</th>
                                     <th scope="col">Full Name</th>
                                     <th scope="col">Gender</th>
                                     <th scope="col" colSpan='5'>Phone</th>
-
-
                                 </tr>
                             </thead>
                             <tbody>
@@ -88,31 +81,15 @@ export function Payment({ auth }) {
                                     <td  >Total </td>
                                     <td>:</td>
                                     <td>IDR. 12,398,000</td>
-
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-            {!pay &&
-                <div className="row w-100 justify-content-end">
-                    <div className="btn btn-warning btn-lg w-25" data-toggle="modal" data-target=".bd-example-modal-lg" onClick={() => { handlePay() }}>Pay</div>
-                </div>
-            }
-            <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div className="modal-dialog modal-lg modal-dialog-centered">
-                    <div className="modal-content">
-                        <div className="container">
 
-                            <p className='text-center'>Your payment will be confirmed within 1 x 24 hours To see orders click Here thank you</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </>
     )
 }
 
-
-
+export default CardHistory

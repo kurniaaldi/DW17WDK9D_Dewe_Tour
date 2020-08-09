@@ -1,0 +1,72 @@
+.img-fluid{
+    border-radius: 5px;
+}
+
+.col-5{
+padding: 0rem !important;
+}
+
+.info-self{
+    height: 40px;
+    
+}
+
+.img-fluids{
+    height: 100%;
+width: 100%;
+}
+
+
+.col-logo{
+    width: 36px;
+    height: 36px;
+    padding: 0px !important;
+}
+
+.col-10{
+    text-align: left;
+}
+
+.col-10 h6{
+    margin-bottom: 0px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+
+    align-items: center;
+
+
+    color: #050505;
+}
+
+.col-10 p{
+font-family: Google Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+align-items: center;
+
+
+color: #8A8C90;
+}
+
+.btn-warning{
+color: #ffffff !important;
+}
+
+.btn-style{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.title-history{
+    text-align: left;
+}
+
+.card-midle{
+text-align: left;
+}
