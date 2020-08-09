@@ -5,9 +5,9 @@
 .jumbotron{
     background-image: url('../../asset/pict/jumbotron.jpg') ;
     background-size: cover;
-    margin-top: -96px;
+    margin-top: -62px;
     height: 547px;
-    width: 1410px;
+    width: 100%;
 }
 
 .jumbotron h1{
@@ -26,11 +26,22 @@
 }
 
 .input-group{
-    max-width: 1130px;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-bottom: 10px;
     clear: both;
+    padding-right: 50px;
+}
+
+.span{
+    position: absolute;
+    top: 16px;
+    right: 3px;
+    background-color: #ffff;
+    border-radius: 3px;
+    width: 60px;
+    height: 30px;
 }
 
 

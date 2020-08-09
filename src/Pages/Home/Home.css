@@ -1,18 +1,4 @@
-/* .jumbotron{
-    background-image: url('../../asset/pict/jumbotron.jpg');
-    background-size: cover;
-    margin-top: -95px;
-    height: 547px;
-    width: 1488px;
-} */
 
-/* .jumbotron h1{
-    font-family: Product Sans;
-font-style: Bold;
-font-size: 64px;
-text-align: Left;
-vertical-align: Top;
-} */
 
 .card-img-top{
     width: 328px;
@@ -23,13 +9,33 @@ vertical-align: Top;
     top: 1485px;
 }
 
+.mr-5{
+width: 100%;
+}
+
 
 .row-card{
     margin-top: -65px;
+    width: 100%;
+}
+
+.center {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
 }
 
 .card-info{
-    width: 13rem;
+    width: 250px;
+    height: 100%;
+    padding: 5px;
+}
+
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 50px;
+    font-size: 14px;
 }
 
 .btn-top{
@@ -42,11 +48,6 @@ vertical-align: Top;
 
 .btn-warning{
     color: #FFFFFF;
-}
-
-
-.card{
-    padding: 5px;
 }
 
 .groups {
@@ -63,9 +64,7 @@ vertical-align: Top;
     color: #FFFFFF;
 }
 
-.card-title{
-    margin-left: -15px;
-}
+
 
 
 
