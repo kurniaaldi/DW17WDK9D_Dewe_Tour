@@ -6,7 +6,7 @@ function Register() {
         <Fragment>
             <Button variant="warning" className=" btn-top" data-toggle="modal" data-target="#registerModal">Register</Button>
             <div className="modal fade" id="registerModal" tabIndex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
-                <div className="modal-dialog" role="document">
+                <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
                             <h5 className="modal-title" id="registerModalLabel">register</h5>
